@@ -98,6 +98,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [APort Agent Guardrails](https://github.com/aporthq/aport-agent-guardrails) - Deterministic pre-action authorization hooks for AI-agent tool calls, with adapters for Claude Code, Cursor, OpenClaw, LangChain, CrewAI, and related runtimes.
 - [Lurkr](https://github.com/agentveil-protocol/lurkr) - Static scanner that runs in CI before deploy to surface AI-agent capability risks, including shadow capabilities, credentials into LLM context, eval/subprocess in `@tool`, direct prompt interpolation, and unverified MCP endpoints.
 - [HEAAL](https://github.com/hyun06000/AIL) - Grammar-enforced safety constraints for AI agents via AIL (AI-Intent Language).
+- [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) - Sourced database of real-world AI agent security incidents, useful as threat-model input for harness boundaries: sandbox escapes, destructive agent actions, prompt injection via repo content and agent-framework CVEs, each flagged for confirmed harm vs. demonstration only.
 
 ### Operational Autonomy & Reliability
 
